@@ -1,0 +1,46 @@
+{
+  "name": "functional-json",
+  "version": "1.0.0",
+  "description": "json treated like data, real data",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "docs": "jsdoc2md lib/*.js > api.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dirwin517/functional-json.git"
+  },
+  "keywords": [
+    "json",
+    "math",
+    "add",
+    "subtract",
+    "deep",
+    "divide",
+    "flat",
+    "unflat",
+    "multiply",
+    "objects",
+    "toArray",
+    "toMap",
+    "union",
+    "intersection",
+    "random",
+    "hierarchy"
+  ],
+  "author": "dirwin517",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/dirwin517/functional-json/issues"
+  },
+  "homepage": "https://github.com/dirwin517/functional-json#readme",
+  "devDependencies": {
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-eslint": "^18.1.0",
+    "grunt-jsdoc-to-markdown": "^1.2.1",
+    "grunt-mocha-test": "^0.12.7",
+    "load-grunt-tasks": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
